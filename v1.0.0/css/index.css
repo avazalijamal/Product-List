@@ -1,0 +1,121 @@
+/* sifirlama */
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+body{
+    background-color: darksalmon;
+    width: auto;
+    height: auto;
+}
+
+/* butun masinlar */
+
+.cars{
+    text-align: center;
+}
+
+/* masin */
+
+.car{
+    width:150px ;
+    height:200px ;
+    background-color: aqua;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    transition: 500ms background-color;
+    display: inline-block;
+    margin: 15px;
+}
+
+.car:hover{
+    background-color: blue;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px  rgb(97, 91, 91);
+    
+}
+
+.car img{
+     width:130px ;
+     height: auto;
+     margin-top: 10px;
+
+}
+
+.car h4{
+    font-size: 16px;
+    color: darkred;
+    margin-top: 10px;
+}
+
+/* qiymetler */
+
+.car p{
+    font-size: 14px;
+    margin-top: 5px;
+
+}
+
+.car p s{
+    color: red;
+}
+
+.car p b{
+    color: green;
+}
+
+/* ulduzlar */
+
+.car div{
+    margin-top: 5px;
+}
+
+.car div img{
+    width:25px ;
+    height:25px;
+}
+
+/* menu */
+
+.menu{
+    width: 200px;
+    height: 100vh;
+    background-color: yellow;
+    padding-left: 30px;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: 500ms;
+    z-index: 5;
+}
+.menu:hover{
+    left: 0;
+}
+
+.menu li{
+    margin-top: 20px;
+    list-style: none;
+    list-style-position:inside ;
+}
+
+
+.menu li:hover{
+    text-decoration: underline ;
+    cursor: pointer;
+    background-color: chartreuse;
+}
+.home{
+    list-style-image:url(../img/home.png) !important ;
+}
+
+.profile{
+    list-style-image:url(../img/profile.png) !important ;
+}
+
+.about{
+    list-style-image:url(../img/about.jpg) !important ;
+}
+
